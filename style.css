@@ -2,9 +2,39 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 html,body {
     height: 100%;
     width: 100%
+}
+
+/* HEADER  */
+header{
+    background-color: rgb(16, 16, 61);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap : 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#B0A9E5;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    color: #7546E8;
+}
+
+.nav-social a{
+    text-decoration: none;
+    color:rgb(126, 82, 245);
+    font-weight : bold;
+    margin : 5px;
 }
