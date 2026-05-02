@@ -131,6 +131,7 @@ section{
 
 .about-me p{
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .about-me:hover{
