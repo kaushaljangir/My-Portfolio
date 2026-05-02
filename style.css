@@ -61,6 +61,7 @@ header{
 
 .hero h2 {
     font-size: 32px;
+    margin-bottom: 10px;
 }
 
 .hero span {
@@ -76,7 +77,7 @@ header{
     text-decoration: none;
     transition: 0.2s;
     display: block;
-    width: 190px;
+    width: 300px;
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
@@ -239,11 +240,13 @@ footer{
 
     .hero h2 {
         font-size: 42px;
+        margin-bottom: 0;
     }
 
     .button{
         display: inline-block;
         margin: 20px 10px;
+        width: 190px;
     }
 
     section{
