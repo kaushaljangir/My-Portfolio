@@ -127,6 +127,10 @@ section{
     transition: 0.2s;
 }
 
+.about-me p{
+    font-style: italic;
+}
+
 .about-me:hover{
     transform: translateY(-10px);;
 }
