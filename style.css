@@ -206,3 +206,43 @@ footer{
     text-align: center;
     background-color: #0F2854;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+    header{
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .hero{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h2 {
+        font-size: 42px;
+    }
+
+    .button{
+        display: inline-block;
+        margin: 20px 10px;
+    }
+
+    section{
+        padding: 60px;
+    }
+
+    .my-projects{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
