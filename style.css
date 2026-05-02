@@ -125,6 +125,8 @@ section{
     border: 1px solid rgba(200,179,246,0.2);
     max-width: 600px;
     transition: 0.2s;
+    line-height: 1.5;
+    word-spacing: 2px;
 }
 
 .about-me p{
