@@ -7,7 +7,8 @@
 
 html,body {
     height: 100%;
-    width: 100%
+    width: 100%;
+    padding-top: 70px;
 }
 
 body{
@@ -25,6 +26,11 @@ header{
     padding: 15px;
     gap : 15px;
     box-shadow: 0 0 10px #1C4D8D;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 264;
 }
 
 .navbar a{
@@ -54,7 +60,7 @@ header{
 }
 
 .hero h2 {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .hero span {
@@ -70,6 +76,8 @@ header{
     text-decoration: none;
     transition: 0.2s;
     display: block;
+    width: 190px;
+    margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -210,6 +218,10 @@ footer{
 /* MEDIA QUERIES */
 
 @media (min-width: 768px){
+
+    body{
+        padding-top: 0;
+    }
 
     header{
         flex-direction: row;
